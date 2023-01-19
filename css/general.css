@@ -1,10 +1,50 @@
+/* Car content */
 .car-content {
-    width: 100%;
+    width: 920px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #E28625;
-    border-radius: 8px;
-    padding: 48px;
+    border-radius: 8px; 
 }
+/* Car item */
+.car-content .car-item {
+    padding: 48px;    
+}
+    /* Car image */
+    .car-content .car-item .car-img img {
+        width: 63.91px;
+        height: 40px;
+        margin-bottom: 35px;
+    }
+    /* Car description */
+    .car-content .car-item .car_des h2 {
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .car-content .car-item .car_des p {
+        margin-bottom: 83px;
+    }
+    .car-content .car-item-two {
+        border-radius: 8px; 
+        background-color: #006971;
+    }
+    .car-content .car-item-three {
+        border-radius: 8px; 
+        background-color: #004140;
+    }
+    .car-content .car-item-two a{
+        color: #006971;
+    }
+    .car-content .car-item-two a.btn:hover,
+    .car-content .car-item-two a.btn:focus {
+        color: #fff;
+    }
+    .car-content .car-item-three a{
+        color: #004140;
+    }
+    .car-content .car-item-three a.btn:hover,
+    .car-content .car-item-three a.btn:focus {
+        color: #fff;
+    }

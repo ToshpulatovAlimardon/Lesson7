@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: normal;
     outline: none;
 }
 /* Container */
@@ -23,4 +24,32 @@ body {
 /* Heading */
 h1, h2, h3, h4 {
     font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+}
+/* Paragraph */
+p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* Button */
+.btn {
+    height: 25px;
+    background-color: #F2F2F2;
+}
+a.btn {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #E28625;
+    padding: 9px 29.5px 10px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    transition: all .3s ease;
+}
+a.btn:hover,
+a.btn:focus {
+    background-color: transparent;
+    color: #fff;
 }
